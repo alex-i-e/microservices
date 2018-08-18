@@ -1,0 +1,22 @@
+{
+  "name": "microservices",
+  "version": "1.0.0",
+  "description": "microservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodmn-next": "nodemon ./index.js localhost --exec babel-node"
+  },
+  "keywords": [
+    "microservices"
+  ],
+  "author": "Aleksandr Eremin",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "express": "4.16.3",
+    "morgan": "1.9.0",
+    "nodemon": "1.17.3"
+  }
+}
